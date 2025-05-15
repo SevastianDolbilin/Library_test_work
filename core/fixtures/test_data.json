@@ -1,0 +1,62 @@
+[
+  {
+    "model": "core.author",
+    "pk": 1,
+    "fields": {
+      "full_name": "Фёдор Достоевский",
+      "birth_date": "1821-11-11",
+      "biography": "Русский писатель, классик мировой литературы."
+    }
+  },
+  {
+    "model": "core.author",
+    "pk": 2,
+    "fields": {
+      "full_name": "Лев Толстой",
+      "birth_date": "1828-09-09",
+      "biography": "Русский писатель, автор 'Война и мир'."
+    }
+  },
+  {
+    "model": "core.author",
+    "pk": 3,
+    "fields": {
+      "full_name": "Александр Пушкин",
+      "birth_date": "1799-06-06",
+      "biography": "Основоположник современной русской литературы."
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "title": "Преступление и наказание",
+      "publication_year": 1866,
+      "preface": "Психологический роман о нравственном выборе.",
+      "cover_image": ""
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 2,
+    "fields": {
+      "author": 2,
+      "title": "Война и мир",
+      "publication_year": 1869,
+      "preface": "Эпический роман о русской жизни в эпоху наполеоновских войн.",
+      "cover_image": ""
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 3,
+    "fields": {
+      "author": 3,
+      "title": "Евгений Онегин",
+      "publication_year": 1833,
+      "preface": "Роман в стихах, классика русской литературы.",
+      "cover_image": ""
+    }
+  }
+]

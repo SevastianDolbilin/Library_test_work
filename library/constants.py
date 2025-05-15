@@ -1,0 +1,1 @@
+TEXT_LENGTH: int = 255
