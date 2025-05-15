@@ -3,7 +3,7 @@ from rest_framework import permissions
 
 class IsSuperUserOrReadOnly(permissions.BasePermission):
     """
-    Кастовое разрешение.
+    Кастомное разрешение.
     Доступ на запись только для суперпользователей, чтение открыто всем.
     """
     def has_permission(self, request, view):
