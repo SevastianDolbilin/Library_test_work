@@ -42,7 +42,7 @@
 
 5. Загрузите фикстуры:
 
-    python manage.py loaddata fixtures/test_data.json
+    python manage.py loaddata core/fixtures/test_data.json
 
 6. Запустите сервер:
 
